@@ -11,3 +11,10 @@
 - music / spotify player
 - gamepad to scroll text in terminal
 - browser soluiton
+- start fdterm on load
+
+## done
+- ssh
+- wifi
+- brightness
+- battery level
