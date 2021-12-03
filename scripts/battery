@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+upower -i /org/freedesktop/UPower/devices/battery_axp20x_battery
