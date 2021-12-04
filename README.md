@@ -21,12 +21,15 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 - [ ] hckrnews client
 - [ ] reddit client
 - [ ] stonks
+- [ ] can I see pictures in the TTY?
+- [ ] what about video?
 - [ ] music / spotify player
 - [ ] gamepad to scroll text in terminal
 - [ ] soluiton for browser
 - [ ] start fdterm on load
 - [ ] japanese input in tty
 - [ ] google translate in terminal
+- [ ] plug a mini cassette recorder, do some magic to let me store data using cute tiny mini audio-cassettes.. yum!
 
 ## Notes
 
