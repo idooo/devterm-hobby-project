@@ -14,7 +14,7 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 - [x] connect to home wifi
 - [x] basic scripts (battery charge and brightness control)
 - [x] render UTF, Cyrillic, Japanese in TTY
-- [ ] battery indicator in zsh prompt
+- [x] battery indicator in zsh prompt
 - [ ] email client
 - [ ] nethack / dcss
 - [ ] twitter client
@@ -40,6 +40,8 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 3) Browser. Had some hopes for [Browsh](https://www.brow.sh/) but it's super slow (uses headless Firefox behind the scenes) and rendering getting borked in `fdterm`. Have to use `lynx` for now. And my Macbook...
 
 4) Translations. After quick search was able to find `libtranslate-bin` but there were no builds for ARM64 and I was about to start building it from sources. However, looked for alternatives in the apt repo and found [translate-shell](https://github.com/soimort/translate-shell). Works amazingly well for my needs
+
+5) There is a cool zsh plugin as part of `oh-my-zsh` called [battery](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/battery). To make it work you need to install `acpi` and update your prompt. Works flawlessly
 
 ## Screenshots
 
