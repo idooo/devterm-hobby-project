@@ -1,8 +1,8 @@
 # DevTerm hobby project
 
-So I bought this amazing device: [DevTerm A-0604](https://www.clockworkpi.com/devterm). It has ARM processor and runs a custom version of (Armbian)[https://www.armbian.com/]. 
+So I bought this amazing device: [DevTerm A-0604](https://www.clockworkpi.com/devterm). It has a beefy ARM processor and runs a custom version of [Armbian](https://www.armbian.com/). 
 
-It has LightDM + xfce for UI (I think) but it's boring to use this retro-looking device with GUI. Let's try to set it up for full entertainment without any GUI environment. And store some files / notes here as we go
+It has LightDM + xfce for UI but it's boring to use this retro-looking device with GUI. Let's try to set it up for serious business and full entertainment without any GUI - just terminal old school. Here I'll be storing some files / notes here as I go
 
 ![This is an image](./images/devterm.jpg?raw=true)
 
@@ -34,4 +34,4 @@ It has LightDM + xfce for UI (I think) but it's boring to use this retro-looking
 
 ## License 
 
-MIT unless specified 
+MIT unless specified otherwise
