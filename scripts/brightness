@@ -1,3 +1,6 @@
 #!/usr/bin/bash
 
+# From here 
+# https://forum.clockworkpi.com/t/changing-brightness-terminal/7070
+
 sudo bash -c "echo $1 > /sys/class/backlight/backlight@0/brightness"
