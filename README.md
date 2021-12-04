@@ -6,7 +6,7 @@ It also has LightDM + xfce for UI but it's kinda boring to use this amazing retr
 
 Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not RHEL!). I know nothing about modern linuxes + I always forget all the voodoo you have to do to make them work. So here I'll be storing my notes and useful scripts as I go with this hobby project
 
-![This is an image](./images/devterm.jpg?raw=true)
+<img src="./images/devterm.jpg?raw=true" width="500"/>
 
 ## Roadmap
 - [x] disable GUI 
@@ -33,7 +33,7 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 
 ## Notes
 
-1) Terminal. Standard TTY has a very limited capabilities to render fonts. Had troubles to render Japanese characters (kanji, hirogana and katakana). Got success with using `fdterm` with [Iosevka Term](https://typeof.net/Iosevka/) and [Noto Sans JP](https://fonts.google.com/noto/specimen/Noto+Sans+JP?subset=japanese) fonts. Downloaded them and copied into `/usr/share/fonts/(truetype|opentype)` and update `~/.fbtermrc`. If the first font doesn't contain the glyph for the rendering character, it will try second font and etc. (Still need to try to figure out how to autostart `fdterm`)
+1) Terminal. Standard TTY has a very limited capabilities to render fonts. Had troubles to render Japanese characters (kanji, hirogana and katakana). Got success with using `fdterm` with [Iosevka Term](https://typeof.net/Iosevka/) and [Noto Sans JP](https://fonts.google.com/noto/specimen/Noto+Sans+JP?subset=japanese) fonts. Downloaded them and copied into `/usr/share/fonts/(truetype|opentype)` and update `~/.fbtermrc`. If the first font doesn't contain the glyph for the rendering character, it will try second font and etc (1). (Still need to try to figure out how to autostart `fdterm`)
 
 2) To connect to WiFi I've tried `wpa_cli` but you need to be really smart to use it. Not my case. Fallbacked to use `nmcli` and it works like a charm
 
@@ -41,6 +41,11 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 
 4) Translations. After quick search was able to find `libtranslate-bin` but there were no builds for ARM64 and I was about to start building it from sources. However, looked for alternatives in the apt repo and found [translate-shell](https://github.com/soimort/translate-shell). Works amazingly well for my needs
 
+## Screenshots
+
+(1) Translations + JA glyph rendering in fbterm
+
+<img src="./images/en2ja.jpg?raw=true" width="300"/>
 
 ## License 
 
