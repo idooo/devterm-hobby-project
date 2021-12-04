@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+
+# install https://github.com/soimort/translate-shell
+# sudo apt-get install translate-shell
+
+trans -t en -f ja "$1"
+
