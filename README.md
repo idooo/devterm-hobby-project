@@ -12,6 +12,8 @@
 - gamepad to scroll text in terminal
 - browser soluiton
 - start fdterm on load
+- japanese keyboard in tty
+- google translate in terminal
 
 ## done
 - ssh
