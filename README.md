@@ -28,7 +28,7 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 - [ ] soluiton for browser
 - [ ] start fdterm on load
 - [ ] japanese input in tty
-- [ ] google translate in terminal
+- [x] google translate in terminal
 - [ ] plug a mini cassette recorder, do some magic to let me store data using cute tiny mini audio-cassettes.. yum!
 
 ## Notes
@@ -38,6 +38,8 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 2) To connect to WiFi I've tried `wpa_cli` but you need to be really smart to use it. Not my case. Fallbacked to use `nmcli` and it works like a charm
 
 3) Browser. Had some hopes for [Browsh](https://www.brow.sh/) but it's super slow (uses headless Firefox behind the scenes) and rendering getting borked in `fdterm`. Have to use `lynx` for now. And my Macbook...
+
+4) Translations. After quick search was able to find `libtranslate-bin` but there were no builds for ARM64 and I was about to start building it from sources. However, looked for alternatives in the apt repo and found [translate-shell](https://github.com/soimort/translate-shell). Works amazingly well for my needs
 
 ## License 
 
