@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
+# From official DevTerm repo
+# https://github.com/clockworkpi/DevTerm
+
 import glob
 import os
 import sys,getopt
