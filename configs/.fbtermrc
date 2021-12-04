@@ -6,9 +6,8 @@
 
 # font family names/pixelsize used by fbterm, multiple font family names must be seperated by ','
 # and using a fixed width font as the first is strongly recommended
-font-names=Iosevka Term
-#font-names=Fira Code
-font-size=18
+font-names=Iosevka Term,Noto Sans JP
+font-size=20
 
 # force font width (and/or height), usually for non-fixed width fonts
 # legal value format: n (fw_new = n), +n (fw_new = fw_old + n), -n (fw_new = fw_old - n)
