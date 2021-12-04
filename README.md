@@ -4,7 +4,7 @@ So I bought this amazing device: [DevTerm A-0604](https://www.clockworkpi.com/de
 
 It also has LightDM + xfce for UI but it's kinda boring to use this amazing retro-looking device with graphical interface. Let's try to set it up for a serious business and a maximum entertainment without any GUI - just how it was in the good old days. 
 
-Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not RHEL!). I know nothing about modern linuxes + I always forget all the voodoo you have to do to make them work. So here I'll storing my notes and useful scripts as I go with this hobby project
+Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not RHEL!). I know nothing about modern linuxes + I always forget all the voodoo you have to do to make them work. So here I'll be storing my notes and useful scripts as I go with this hobby project
 
 ![This is an image](./images/devterm.jpg?raw=true)
 
