@@ -33,7 +33,7 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 
 ## Notes
 
-1) Terminal. Standard TTY has a very limited capabilities to render fonts. Had troubles to render Japanese characters (kanji, hirogana and katakana). Got success with using `fdterm` with [Iosevka Term](https://typeof.net/Iosevka/) and [Noto Sans JP](https://fonts.google.com/noto/specimen/Noto+Sans+JP?subset=japanese) fonts. If the first font doesn't contain the glyph for the rendering character, it will try second font and etc. Still need to try to figure out how to autostart `fdterm`
+1) Terminal. Standard TTY has a very limited capabilities to render fonts. Had troubles to render Japanese characters (kanji, hirogana and katakana). Got success with using `fdterm` with [Iosevka Term](https://typeof.net/Iosevka/) and [Noto Sans JP](https://fonts.google.com/noto/specimen/Noto+Sans+JP?subset=japanese) fonts. Downloaded them and copied into `/usr/share/fonts/(truetype|opentype)` and update `~/.fbtermrc`. If the first font doesn't contain the glyph for the rendering character, it will try second font and etc. (Still need to try to figure out how to autostart `fdterm`)
 
 2) To connect to WiFi I've tried `wpa_cli` but you need to be really smart to use it. Not my case. Fallbacked to use `nmcli` and it works like a charm
 
