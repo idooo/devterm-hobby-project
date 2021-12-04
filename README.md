@@ -43,6 +43,9 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 
 5) There is a cool zsh plugin as part of `oh-my-zsh` called [battery](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/battery). To make it work you need to install `acpi` and update your prompt. Works flawlessly
 
+6) Games. [DCSS](https://crawl.develz.org/) is a cool roguelike crawler. Doesn't have ARM64 binary, got the [source](https://github.com/crawl/crawl), followed the [instructions](https://github.com/crawl/crawl/blob/master/crawl-ref/INSTALL.md) and built it without any problems. However attempting to start it throws an error `Terminal too small` because it needs min height of 24 (DevTerm is only 19). Can try to change [this](https://github.com/crawl/crawl/blob/01218726429e4ea9e687ec3926d8e238243f126e/crawl-ref/source/defines.h#L24) but will that make it unplayable?
+
+
 ## Screenshots
 
 (1) Translations + JA glyph rendering in fbterm
