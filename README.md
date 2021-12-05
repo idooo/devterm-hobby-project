@@ -21,6 +21,9 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 - [ ] hckrnews client
 - [ ] reddit client
 - [ ] stonks
+- [ ] IDE / code editor
+- [ ] text editor
+- [ ] rust
 - [ ] can I see pictures in the TTY?
 - [ ] what about video?
 - [ ] music / spotify player
