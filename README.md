@@ -19,7 +19,7 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 - [ ] nethack / dcss
 - [ ] twitter client
 - [ ] hckrnews client
-- [ ] reddit client
+- [x] reddit client
 - [ ] stonks
 - [ ] IDE / code editor
 - [ ] text editor
@@ -51,6 +51,8 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 7) Used [this guide](https://forum.clockworkpi.com/t/using-gamepad-arrows-and-buttons-in-command-line-apps/7059/2?u=godzil) to change the way gamepad on DevTerm keyboard works
 
 8) Installed `gpm` (using [this](https://www.geeksforgeeks.org/gpm-command-in-linux-with-examples/)) to enable mouse in tty. Didn't need to setup anything. It just works
+
+9) Software - Reddit client. Although [rtv](https://github.com/michael-lazar/rtv) is discontinued - it still works better than alternatives. Can't log in under my user but it doesn't matter much.
 
 ## Screenshots
 
