@@ -32,6 +32,7 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 - [ ] start fdterm on load
 - [ ] japanese input in tty
 - [x] google translate in terminal
+- [ ] auth by usb stick
 - [ ] plug a mini cassette recorder, do some magic to let me store data using cute tiny mini audio-cassettes.. yum!
 
 ## Notes
