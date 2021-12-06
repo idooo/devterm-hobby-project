@@ -45,7 +45,7 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 
 4) Translations. After quick search was able to find `libtranslate-bin` but there were no builds for ARM64 and I was about to start building it from sources. However, looked for alternatives in the apt repo and found [translate-shell](https://github.com/soimort/translate-shell). Works amazingly well for my needs
 
-5) There is a cool zsh plugin as part of `oh-my-zsh` called [battery](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/battery). To make it work you need to install `acpi` and update your prompt. Works flawlessly
+5) There is a cool zsh plugin as part of `oh-my-zsh` called [battery](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/battery). To make it work you need to install `acpi` and update your prompt. Works flawlessly but I want to use battery indicator in `tmux`
 
 6) Games. [DCSS](https://crawl.develz.org/) is a cool roguelike crawler. Doesn't have ARM64 binary, got the [source](https://github.com/crawl/crawl), followed the [instructions](https://github.com/crawl/crawl/blob/master/crawl-ref/INSTALL.md) and built it without any problems. However attempting to start it throws an error `Terminal too small` because it needs min height of 24 lines (DevTerm is only 19). Can try to change [this](https://github.com/crawl/crawl/blob/01218726429e4ea9e687ec3926d8e238243f126e/crawl-ref/source/defines.h#L24) but will that make it unplayable?
 
@@ -54,6 +54,8 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 8) Installed `gpm` (using [this](https://www.geeksforgeeks.org/gpm-command-in-linux-with-examples/)) to enable mouse in tty. Didn't need to setup anything. It just works
 
 9) Software - Reddit client. Although [rtv](https://github.com/michael-lazar/rtv) is discontinued - it still works better than alternatives. Can't log in under my user but it doesn't matter much.
+
+10) Games. [Nethack](https://packages.debian.org/sid/games/nethack-console) just works!
 
 ## Screenshots
 
