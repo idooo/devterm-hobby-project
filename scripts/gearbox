@@ -2,6 +2,7 @@
 
 # From official DevTerm repo
 # https://github.com/clockworkpi/DevTerm
+# https://forum.clockworkpi.com/t/devterm-a-06-core-cpu-frequency-scaling/7135
 
 import glob
 import os
