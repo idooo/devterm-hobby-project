@@ -57,6 +57,8 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 
 10) Games. [Nethack](https://packages.debian.org/sid/games/nethack-console) just works!
 
+11) CPU scaling. Clockworkpi made a [script](https://forum.clockworkpi.com/t/devterm-a-06-core-cpu-frequency-scaling/7135) to adjust CPU/GPU cores dynamically 
+
 ## Screenshots
 
 (1) Translations + JA glyph rendering in fbterm
