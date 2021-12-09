@@ -15,8 +15,10 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 - [x] basic scripts (battery charge and brightness control)
 - [x] render UTF, Cyrillic, Japanese in TTY
 - [x] battery indicator in zsh prompt
+- [ ] nice setup for tmux (themes, plugins)
 - [ ] email client
-- [ ] nethack / dcss
+- [x] games: nethack
+- [ ] games: dcss
 - [ ] twitter client
 - [ ] hckrnews client
 - [x] reddit client
