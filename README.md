@@ -32,6 +32,7 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 - [ ] gamepad to scroll text in terminal
 - [ ] soluiton for browser
 - [ ] start fdterm+fcitx on load
+- [x] bg image in fbterm
 - [x] japanese input in tty
 - [x] google translate in terminal
 - [x] auth by usb stick
@@ -75,6 +76,64 @@ To be able to use Ctlr+Space combination I had to update permissions for `fbterm
 Then to start `fbterm` with `fcitx` you simply run `fcitx-fbterm-helper -l`. Press Ctrl+Space to enable it and then Alt to switch between US and JA input methods. 
 
 <img src="./images/fcitx-moz.jpg?raw=true" width="300"/>
+
+## Set background image in terminal
+
+We have [this good guide](https://askubuntu.com/questions/278863/how-do-i-set-up-a-background-image-for-console) that I followed to make the magic happen. We need to build `fbv` from sources and for that we need to:
+
+- get stock libjpeg dev by using `sudo apt-get install libjpeg-dev`
+- build libungif from sources: 
+```
+git clone https://github.com/Distrotech/libungif.git
+autoreconf -f -i
+./configure
+make 
+sudo make install
+```
+- build old libpng (1.2) because `fbv` doesn't like the latest one Armbian repo has
+
+```
+# get .tar.gz from https://sourceforge.net/projects/libpng/
+tar xfv <file.tar.gz>
+./configure
+make 
+sudo make install
+sudo ldconfig
+```
+
+Now it's time to get and build `fbv`:
+
+```
+wget http://s-tech.elsat.net.pl/fbv/fbv-1.0b.tar.gz
+tar xfv fbv-1.0b.tar.gz
+./configure
+sudo checkinstall
+```
+
+Now according to the `fbterm` [manual](https://linux.die.net/man/1/fbterm), this is the script we can create to run fbterm with the background image:
+
+```
+#!/bin/bash
+
+# fbterm-bi: a wrapper script to enable background image with fbterm
+# usage: fbterm-bi /path/to/image fbterm-options
+
+echo -ne "\e[?25l" # hide cursor
+
+fbv -ciuker "$1" << EOF
+q
+EOF
+
+shift
+export FBTERM_BACKGROUND_IMAGE=1
+exec fbterm "$@"
+```
+
+I've slightly modified it and put in this repo as `./scripts/fbstart`. Remember we actually don't start `fbterm` directly but via `fcitx-fbterm-helper`. If you are doing the same thing, you would also like to edit `/usr/bin/fcitx-fbterm-helper` and comment all `echo` lines there. Otherwise those messages will become the part of your background.
+
+Also as my `fbterm` for some reason requires a counter clockwise rotation to render itself correctly, I had to rotate the image as well
+
+Her is how it looks:
 
 
 ## Login & sudo via Yubikey (USB Security Key)
