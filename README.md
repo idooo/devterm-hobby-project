@@ -1,6 +1,6 @@
 # DevTerm hobby project
 
-So I bought this amazing device: [DevTerm A-0604](https://www.clockworkpi.com/devterm). It has a beefy ARM processor and runs a custom version of [Armbian](https://www.armbian.com/), embraces Open Source / Open Hardware philosophy and looks dope!
+I bought this amazing device: [DevTerm A-0604](https://www.clockworkpi.com/devterm). It has a beefy ARM processor and runs a custom version of [Armbian](https://www.armbian.com/), embraces Open Source / Open Hardware philosophy and looks dope!
 
 It also has LightDM + xfce for UI but it's kinda boring to use this amazing retro-looking device with graphical interface. **Let's try to set it up for a serious business and a maximum entertainment without any GUI** - just how it was in the good old days. 
 
