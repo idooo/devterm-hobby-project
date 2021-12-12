@@ -61,6 +61,20 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 
 11) CPU scaling. Clockworkpi made a [script](https://forum.clockworkpi.com/t/devterm-a-06-core-cpu-frequency-scaling/7135) to adjust CPU/GPU cores dynamically 
 
+
+## Japanese input method in terminal
+
+I stumbled upon [this good video](https://www.youtube.com/watch?v=lJoXhS4EUJs) where Brodie Robertson talks about input method frameworks, input method engines and shows how to setup `fcitx` with `fcitx-moz` to enable Japanese input method for Arch linux.
+
+However we need to make all of it working in our terminal. Luckily for us there is `fbterm` support and as a double win - we have all needed packages in Armbian repo. So I've installed `sudo apt install fcitx fcitx-mozc fcitx-frontend-fbterm fcitx-ui-classic`.
+
+Configuration in `~/.config/fcitx/config` seems pretty odd. I wasn't able to make it work with any other trigger key except for the default one (Ctrl+Space). However I changed `SwitchKey` to be `L_ALT` (instead of defaule L_SHIFT) and it made my life better.
+
+To be able to use Ctlr+Space combination I had to update permissions for `fbterm` by executing `setcap 'cap_sys_tty_config+ep' /usr/bin/fbterm `
+
+Then to start `fbterm` with `fcitx` you simply run `fcitx-fbterm-helper -l`. Press Ctrl+Space to enable it and then Alt to switch between US and JA input methods. 
+
+
 ## Login & sudo via Yubikey (USB Security Key)
 
 I have [Yubikey 5 NFC](https://www.yubico.com/products/yubikey-5-overview/) so it was logical to set it up with DevTerm. 
