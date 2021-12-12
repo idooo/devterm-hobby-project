@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# starts fbterm with background image and fcitx
+
+DIR=$(cd -P -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)
+IMAGE=../images/bg/bg1.jpg
+
+echo $DIR
+echo -ne "\e[?25l" # hide cursor
+
+fbv -ciuker "$DIR/$IMAGE" << EOF
+q
+EOF
+
+shift
+export FBTERM_BACKGROUND_IMAGE=1
+exec fcitx-fbterm-helper -l
