@@ -31,8 +31,8 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 - [ ] music / spotify player
 - [ ] gamepad to scroll text in terminal
 - [ ] soluiton for browser
-- [ ] start fdterm on load
-- [ ] japanese input in tty
+- [ ] start fdterm+fcitx on load
+- [x] japanese input in tty
 - [x] google translate in terminal
 - [x] auth by usb stick
 - [ ] plug a mini cassette recorder, do some magic to let me store data using cute tiny mini audio-cassettes.. yum!
@@ -73,6 +73,8 @@ Configuration in `~/.config/fcitx/config` seems pretty odd. I wasn't able to mak
 To be able to use Ctlr+Space combination I had to update permissions for `fbterm` by executing `setcap 'cap_sys_tty_config+ep' /usr/bin/fbterm `
 
 Then to start `fbterm` with `fcitx` you simply run `fcitx-fbterm-helper -l`. Press Ctrl+Space to enable it and then Alt to switch between US and JA input methods. 
+
+<img src="./images/fcitx-moz.jpg?raw=true" width="300"/>
 
 
 ## Login & sudo via Yubikey (USB Security Key)
