@@ -129,9 +129,9 @@ export FBTERM_BACKGROUND_IMAGE=1
 exec fbterm "$@"
 ```
 
-I've slightly modified it and put in this repo as `./scripts/fbstart`. Remember we actually don't start `fbterm` directly but via `fcitx-fbterm-helper`. If you are doing the same thing, you would also like to edit `/usr/bin/fcitx-fbterm-helper` and comment all `echo` lines there. Otherwise those messages will become the part of your background.
+I've slightly modified it and put in this repo as `./scripts/fbstart`. Remember, we actually don't start `fbterm` directly but run it via `fcitx-fbterm-helper` instead. If you are doing the same thing, you would also would like to edit `/usr/bin/fcitx-fbterm-helper` to comment all `echo` lines there. Otherwise those messages will become the part of your background.
 
-Also as my `fbterm` for some reason requires a counter clockwise rotation to render itself correctly, I had to rotate the image as well
+One more thing: for some reason my `fbterm` requires a counter clockwise rotation to render itself correctly, so I had to rotate the image as well.
 
 At the end it looks like this:
 
