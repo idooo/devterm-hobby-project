@@ -133,8 +133,9 @@ I've slightly modified it and put in this repo as `./scripts/fbstart`. Remember 
 
 Also as my `fbterm` for some reason requires a counter clockwise rotation to render itself correctly, I had to rotate the image as well
 
-Her is how it looks:
+At the end it looks like this:
 
+<img src="./images/bgc-image.jpg?raw=true" width="600"/>
 
 ## Login & sudo via Yubikey (USB Security Key)
 
