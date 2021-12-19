@@ -28,7 +28,7 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 - [ ] rust
 - [ ] can I see pictures in the TTY?
 - [ ] what about video?
-- [ ] music / spotify player
+- [x] music / spotify player
 - [ ] gamepad to scroll text in terminal
 - [ ] soluiton for browser
 - [ ] start fdterm+fcitx on load
@@ -62,6 +62,7 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 
 11) CPU scaling. Clockworkpi made a [script](https://forum.clockworkpi.com/t/devterm-a-06-core-cpu-frequency-scaling/7135) to adjust CPU/GPU cores dynamically 
 
+12) Spotify. You can get [spotifyd](https://github.com/Spotifyd/spotifyd) complied from sources without a problem, just follow the official [docs](https://spotifyd.github.io/spotifyd/installation/Ubuntu.html) - that allows to play spotify on a devterm. Now, there is [spotify-tui](https://github.com/Rigellute/spotify-tui) to control it via the terminal (to register correctly I [had to tunnel the dev server](https://github.com/Rigellute/spotify-tui/issues/732) as lynx wasn't able to render the spotify auth page. App itself works but still missing a lot of features.
 
 ## Japanese input method in terminal
 
