@@ -51,7 +51,7 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 
 5) There is a cool zsh plugin as part of `oh-my-zsh` called [battery](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/battery). To make it work you need to install `acpi` and update your prompt. Works flawlessly but I want to use battery indicator in `tmux`
 
-6) Games. [DCSS](https://crawl.develz.org/) is a cool roguelike crawler. Doesn't have ARM64 binary, got the [source](https://github.com/crawl/crawl), followed the [instructions](https://github.com/crawl/crawl/blob/master/crawl-ref/INSTALL.md) and built it without any problems. However attempting to start it throws an error `Terminal too small` because it needs min height of 24 lines (DevTerm is only 19). Can try to change [this](https://github.com/crawl/crawl/blob/01218726429e4ea9e687ec3926d8e238243f126e/crawl-ref/source/defines.h#L24) but will that make it unplayable?
+6) Games. [DCSS](https://crawl.develz.org/) is a cool roguelike crawler. Doesn't have ARM64 binary, got the [source](https://github.com/crawl/crawl), followed the [instructions](https://github.com/crawl/crawl/blob/master/crawl-ref/INSTALL.md) and built it without any problems. However attempting to start it throws an error `Terminal too small` because it needs min height of 24 lines (DevTerm is only 19). Tried to change [this](https://github.com/crawl/crawl/blob/01218726429e4ea9e687ec3926d8e238243f126e/crawl-ref/source/defines.h#L24) and disable checks for the resolution. Now it crashes.
 
 7) Used [this guide](https://forum.clockworkpi.com/t/using-gamepad-arrows-and-buttons-in-command-line-apps/7059/2?u=godzil) to change the way gamepad on DevTerm keyboard works
 
