@@ -37,6 +37,7 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 - [x] google translate in terminal
 - [x] auth by usb stick
 - [ ] plug a mini cassette recorder, do some magic to let me store data using cute tiny mini audio-cassettes.. yum!
+- [x] some cool p2p stuff
 
 ## Notes
 
@@ -63,6 +64,8 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 11) CPU scaling. Clockworkpi made a [script](https://forum.clockworkpi.com/t/devterm-a-06-core-cpu-frequency-scaling/7135) to adjust CPU/GPU cores dynamically 
 
 12) Spotify. You can get [spotifyd](https://github.com/Spotifyd/spotifyd) complied from sources without a problem, just follow the official [docs](https://spotifyd.github.io/spotifyd/installation/Ubuntu.html) - that allows to play spotify on a devterm. Now, there is [spotify-tui](https://github.com/Rigellute/spotify-tui) to control it via the terminal (to register correctly I [had to tunnel the dev server](https://github.com/Rigellute/spotify-tui/issues/732) as lynx wasn't able to render the spotify auth page. App itself works but still missing a lot of features.
+
+13) [superhighway84](https://github.com/mrusme/superhighway84) is a Usenet-inspired decentralized internet discussion system. Under the hood it uses [IPFS](https://ipfs.io/). Both of them have ARM64 binaries available on the official website/repo  
 
 ## Japanese input method in terminal
 
