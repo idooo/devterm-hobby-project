@@ -19,7 +19,7 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 - [ ] email client (gmail, protonmail)
 - [x] games: nethack
 - [ ] games: dcss
-- [ ] twitter client
+- [x] ~~twitter~~ mastodon client
 - [ ] hckrnews client
 - [x] reddit client
 - [ ] stonks
@@ -66,6 +66,8 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 12) Spotify. You can get [spotifyd](https://github.com/Spotifyd/spotifyd) complied from sources without a problem, just follow the official [docs](https://spotifyd.github.io/spotifyd/installation/Ubuntu.html) - that allows to play spotify on a devterm. Now, there is [spotify-tui](https://github.com/Rigellute/spotify-tui) to control it via the terminal (to register correctly I [had to tunnel the dev server](https://github.com/Rigellute/spotify-tui/issues/732) as lynx wasn't able to render the spotify auth page. App itself works but still missing a lot of features.
 
 13) [superhighway84](https://github.com/mrusme/superhighway84) is a Usenet-inspired decentralized internet discussion system. Under the hood it uses [IPFS](https://ipfs.io/). Both of them have ARM64 binaries available on the official website/repo  
+
+14) Mastodon client. [toot](https://github.com/ihabunek/toot) is a terminal based client written in Python. Install it by running `pip install --user toot`. Doesn't support 2-factor auth but otherwise, works like charm
 
 ## Japanese input method in terminal
 
