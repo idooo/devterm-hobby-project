@@ -22,7 +22,7 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 - [x] ~~twitter~~ mastodon client
 - [ ] hckrnews client
 - [x] reddit client
-- [ ] stonks
+- [x] stonks tracker
 - [ ] IDE / code editor
 - [ ] text editor
 - [ ] rust
@@ -68,6 +68,8 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 13) [superhighway84](https://github.com/mrusme/superhighway84) is a Usenet-inspired decentralized internet discussion system. Under the hood it uses [IPFS](https://ipfs.io/). Both of them have ARM64 binaries available on the official website/repo  
 
 14) Mastodon client. [toot](https://github.com/ihabunek/toot) is a terminal based client written in Python. Install it by running `pip install --user toot`. Doesn't support 2-factor auth but otherwise, works like charm
+
+15) To track our stocks portfolio, we will be using [mop](https://github.com/mop-tracker/mop). It's a Go program that we will have to build ourselves. We need Go amd64 binaries ([provided officially](https://golang.google.cn/dl/)) then just follow the [manual](https://go.dev/doc/install) to move them into the right folder, then build `mop` according to official documentation
 
 ## Japanese input method in terminal
 
