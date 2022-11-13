@@ -5,7 +5,7 @@
 clear
 
 DIR=$(cd -P -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)
-IMAGE=../images/bg/bg1.jpg
+IMAGE=../images/bg/bg2.jpg
 
 echo $DIR
 echo -ne "\e[?25l" # hide cursor
