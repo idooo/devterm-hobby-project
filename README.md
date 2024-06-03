@@ -20,8 +20,7 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 - [x] games: nethack
 - [ ] games: dcss
 - [x] ~~twitter~~ mastodon client
-- [ ] hckrnews client
-- [x] reddit client
+- [x] hckrnews client
 - [x] stonks tracker
 - [ ] IDE / code editor
 - [ ] text editor
@@ -57,7 +56,7 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 
 8) Installed `gpm` (using [this](https://www.geeksforgeeks.org/gpm-command-in-linux-with-examples/)) to enable mouse in tty. Didn't need to setup anything. It just works
 
-9) Software - Reddit client. Although [rtv](https://github.com/michael-lazar/rtv) is discontinued - it still works better than alternatives. Can't log in under my user but it doesn't matter much.
+9) Hackernews. Use [hn-text](https://github.com/piqoni/hn-text), install via `go install github.com/piqoni/hn-text@latest`
 
 10) Games. [Nethack](https://packages.debian.org/sid/games/nethack-console) just works!
 
@@ -65,9 +64,7 @@ Last Linux distro I've touched (not counting servers) was Red Hat Linux 9 (not R
 
 12) Spotify. You can get [spotifyd](https://github.com/Spotifyd/spotifyd) complied from sources without a problem, just follow the official [docs](https://spotifyd.github.io/spotifyd/installation/Ubuntu.html) - that allows to play spotify on a devterm. Now, there is [spotify-tui](https://github.com/Rigellute/spotify-tui) to control it via the terminal (to register correctly I [had to tunnel the dev server](https://github.com/Rigellute/spotify-tui/issues/732) as lynx wasn't able to render the spotify auth page. App itself works but still missing a lot of features.
 
-13) [superhighway84](https://github.com/mrusme/superhighway84) is a Usenet-inspired decentralized internet discussion system. Under the hood it uses [IPFS](https://ipfs.io/). Both of them have ARM64 binaries available on the official website/repo  
-
-14) Mastodon client. [toot](https://github.com/ihabunek/toot) is a terminal based client written in Python. Install it by running `pip install --user toot`. Doesn't support 2-factor auth but otherwise, works like charm
+13) Mastodon client. [toot](https://github.com/ihabunek/toot) is a terminal based client written in Python. Install it by running `pip install --user toot`. Doesn't support 2-factor auth but otherwise, works like charm
 
 15) To track our stocks portfolio, we will be using [mop](https://github.com/mop-tracker/mop). It's a Go program that we will have to build ourselves. We need Go amd64 binaries ([provided officially](https://golang.google.cn/dl/)) then just follow the [manual](https://go.dev/doc/install) to move them into the right folder, then build `mop` according to official documentation
 
